@@ -1,0 +1,1 @@
+from myapp import app  # expose 'app' for 'flask --app app run'

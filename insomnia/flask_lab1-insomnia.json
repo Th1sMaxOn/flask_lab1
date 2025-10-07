@@ -1,0 +1,41 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2025-10-07T08:20:24.660813Z",
+  "__export_source": "chatgpt-flask-lab1",
+  "resources": [
+    {
+      "_id": "wrk_flask_lab1",
+      "_type": "workspace",
+      "name": "Flask Lab 1"
+    },
+    {
+      "_id": "fld_endpoints",
+      "_type": "request_group",
+      "name": "Endpoints",
+      "parentId": "wrk_flask_lab1"
+    },
+    {
+      "_id": "req_healthcheck",
+      "_type": "request",
+      "parentId": "fld_endpoints",
+      "name": "GET /healthcheck",
+      "method": "GET",
+      "url": "http://127.0.0.1:8080/healthcheck"
+    },
+    {
+      "_id": "req_hello",
+      "_type": "request",
+      "parentId": "fld_endpoints",
+      "name": "GET /hello?name=World",
+      "method": "GET",
+      "url": "http://127.0.0.1:8080/hello",
+      "parameters": [
+        {
+          "name": "name",
+          "value": "World"
+        }
+      ]
+    }
+  ]
+}
