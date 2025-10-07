@@ -1,5 +1,8 @@
 # Flask Lab 1 — Template, Docker, Compose, Deploy
 
+Посилання на render.com:
+https://flask-lab1.onrender.com
+
 Базовий Flask-проєкт з двома ендпоінтами:
 - `GET /healthcheck` → `{"status":"ok","service":"flask-lab1","time":"..."}`
 - `GET /hello?name=Max` → `{"message":"Hello, Max!"}`
