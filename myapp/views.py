@@ -14,3 +14,9 @@ def healthcheck():
 def hello():
     name = request.args.get("name", "World")
     return jsonify({"message": f"Hello, {name}!"}), 200
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return jsonify({"info": "Welcome to Flask Lab 1! Use /hello or /healthcheck"})
